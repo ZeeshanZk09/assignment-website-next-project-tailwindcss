@@ -22,7 +22,7 @@ export default function Home() {
     </div>
   </div>
   <div className="text-center">
-    <h1 className="text-[2.2rem] leading-[3rem] lg:leading-relaxed  font-bold tracking-wider bg-gradient-to-r from-[#93B1A6] to-[#ffffffe5] bg-clip-text text-transparent   lg:text-[3.5rem]">
+    <h1 className="text-[2.2rem] leading-[3rem] lg:leading-relaxed  font-bold tracking-wider bg-gradient-to-r from-[#6a9aa4] to-[#ffffffe5] bg-clip-text text-transparent   lg:text-[3.5rem]">
       Empowering Students with Seamless Management
     </h1>
     <p className="px-2 sm:px-12 md:px-28 text-sm tracking-widest leading-6 text-white">
@@ -41,7 +41,7 @@ export default function Home() {
     <div className="relative rounded-full px-2 py-[0.1rem] text-[0.67rem] leading-6 text-white ring-1 ring-gray-50 hover:ring-[#93B1A6]">
       New features to enhance student management.
       <Link href="/" className="font-semibold text-indigo-300">
-        <span className="absolute inset-0" aria-hidden="true"></span>
+        <span className="absolute inset-0" aria-hidden="true"></span> 
         Explore now <span aria-hidden="true">&rarr;</span>
       </Link>
     </div>

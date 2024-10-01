@@ -20,7 +20,7 @@ body {
  
 
   /* color: white; */
-  background: linear-gradient(to bottom left, #0f14159c, #4f64699c, #0f14159c);
+  background: linear-gradient(to bottom left, #0f1415, #4f6469);
   background-repeat: no-repeat;
   background-clip: border-box;
   /* overflow:hidden; */
@@ -74,7 +74,7 @@ body {
 
 @media screen and (max-width: 640px) {
   body{
-  background: linear-gradient(to bottom left, #000000 , #3d8f80);
+  background: linear-gradient(to bottom left, #000000 , #4f6469);
   }
   .banner-image {
     background-image: none !important;
