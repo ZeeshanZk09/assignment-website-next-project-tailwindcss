@@ -15,7 +15,7 @@ export default function Home() {
   <div className="hidden lg:mb-8 lg:flex lg:justify-center">
     <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white tracking-widest ring-1 ring-gray-50 hover:ring-[#93B1A6]">
       New features to enhance student management. 
-      <Link href="/" className="font-semibold text-indigo-300"> 
+      <Link href="/" className="font-semibold text-[#95dccf]"> 
         <span className="absolute inset-0" aria-hidden="true"></span>
         Explore now <span aria-hidden="true">&rarr;</span>
       </Link>
@@ -29,7 +29,7 @@ export default function Home() {
       Simplify student data, enhance learning experiences, and manage everything in one place. Our platform provides easy access to essential tools for students and educators alike.
     </p>
     <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-y-4 sm:gap-x-6">
-      <Link href="/login" className="rounded-md bg-[#abdafb] px-4 py-2 text-sm font-extrabold text-black shadow-lg hover:bg-[#abdafb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#abdafb]">
+      <Link href="/login" className="rounded-md bg-[#6a9aa4] px-4 py-2 text-sm font-extrabold text-black shadow-lg hover:bg-[#95dccf] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#95dccf]">
         Get started
       </Link>
       <Link href="/learn-more" className="text-sm font-semibold leading-6 text-[#abdafb]">
