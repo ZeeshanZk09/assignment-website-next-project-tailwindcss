@@ -96,7 +96,7 @@ const MultipleItems: React.FC = () => {
 // Main Banner Component
 const Banner: React.FC = () => {
   return (
-    <main className='banner-image bg-[#58786c]   py-10 px-5 '>
+    <main className='banner-image bg-gradient-to-b from-[#19211e]  to-[#4f6469]  py-10 px-5 '>
       <div className="mx-auto max-w-5xl sm:pb-24">
         <div className="text-center">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-75px">
