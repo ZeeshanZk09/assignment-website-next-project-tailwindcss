@@ -77,7 +77,7 @@ body {
   background: linear-gradient(to bottom left, #000000d3 , #628c84);
   }
   .banner-image {
-    background-image: none !important;
+    background-image: none ;
     /* background-color: #FCF5EF; */
   }
 }
