@@ -29,7 +29,7 @@ export default function Home() {
       Simplify student data, enhance learning experiences, and manage everything in one place. Our platform provides easy access to essential tools for students and educators alike.
     </p>
     <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-y-4 sm:gap-x-6">
-      <Link href="/login" className="rounded-md bg-[#abdafb] px-4 py-2 text-sm font-extrabold text-black shadow-lg hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+      <Link href="/login" className="rounded-md bg-[#abdafb] px-4 py-2 text-sm font-extrabold text-black shadow-lg hover:bg-[#abdafb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#abdafb]">
         Get started
       </Link>
       <Link href="/learn-more" className="text-sm font-semibold leading-6 text-[#abdafb]">
