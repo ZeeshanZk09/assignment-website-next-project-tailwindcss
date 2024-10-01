@@ -13,9 +13,9 @@ export default function Home() {
 
 <section className="text-center px-6 py-24 sm:px-12 sm:py-32 md:px-20 md:py-24 xl:py-40">
   <div className="hidden lg:mb-8 lg:flex lg:justify-center">
-    <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-gray-50 hover:ring-[#93B1A6]">
-      New features to enhance student management.
-      <Link href="/" className="font-semibold text-indigo-300">
+    <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white tracking-widest ring-1 ring-gray-50 hover:ring-[#93B1A6]">
+      New features to enhance student management. 
+      <Link href="/" className="font-semibold text-indigo-300"> 
         <span className="absolute inset-0" aria-hidden="true"></span>
         Explore now <span aria-hidden="true">&rarr;</span>
       </Link>
@@ -38,8 +38,8 @@ export default function Home() {
     </div>
   </div>
   <div className="flex my-8 mx-0 lg:hidden justify-center">
-    <div className="relative rounded-full px-2 py-[0.1rem] text-[0.67rem] leading-6 text-white ring-1 ring-gray-50 hover:ring-[#93B1A6]">
-      New features to enhance student management.
+    <div className="relative rounded-full px-2 py-[0.1rem] text-[0.67rem] leading-6 text-white tracking-widest ring-1 ring-gray-50 hover:ring-[#93B1A6]">
+      New features to enhance student management. &bnsp;
       <Link href="/" className="font-semibold text-indigo-300">
         <span className="absolute inset-0" aria-hidden="true"></span> 
         Explore now <span aria-hidden="true">&rarr;</span>
