@@ -1,0 +1,20 @@
+#loginBtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transition: all 0.4s ease;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+#loginBtn:hover::before {
+    left: 0;
+  }
+
+#loginBtn:hover {
+    color: #000; /* Change text color on hover */
+  }
