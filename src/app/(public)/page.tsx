@@ -1,9 +1,9 @@
 // import Image from "next/image";
 import Link from "next/link";
 import * as React from 'react';
-// import Footer from '@/components/Footer'
-import Banner from '@/components/Banner/Banner'
 
+import Banner from '@/components/Banner/Banner'
+import CEOSection from "@/components/CEOSection"; 
 
 export default function Home() {
 
@@ -48,13 +48,8 @@ export default function Home() {
   </div>
 </section>
       <Banner />
+      <CEOSection />
 
-
-    {/* <Footer />
-    <Footer />
-    <Footer />
-    <Footer />
-    <Footer /> */}
     </>
   );
 }

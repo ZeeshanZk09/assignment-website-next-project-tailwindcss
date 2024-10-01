@@ -1,0 +1,7 @@
+.img-section {
+    z-index:1000;
+    background-image: url("./../../public/assets/images/M Zeeshan Khan.png");
+    background-position-x: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+  }
