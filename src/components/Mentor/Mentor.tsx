@@ -49,7 +49,7 @@ const products: Product[] = [
         id: 5,
         name: 'Web Development / Web Design',
         href: '#',
-        imageSrc: '/assets/images/th.jpeg',
+        imageSrc: '/assets/images/M Zeeshan Khan.png',
         imageAlt: "Front of men's Basic Tee in black.",
         color: 'Sir M Zeeshan Khan',
     },
@@ -81,7 +81,7 @@ const Mentor = () => {
                     <div key={product.id} className="group relative">
                         <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80">
                             <Image
-                                className="h-full w-full object-contain lg:h-full lg:w-full"
+                                className="h-fit w-full object-cover lg:h-full lg:w-full"
                                 src={product.imageSrc}
                                 alt={product.imageAlt}
                                 width={100}
