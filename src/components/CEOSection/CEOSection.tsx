@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ceoData } from "../mockData/ceoData"; // Data import kar rahe hain
+import { ceoData } from "../../mockData/ceoData"; // Data import kar rahe hain
 import './CEOSection.css'
 
 const CEOSection: React.FC = () => {

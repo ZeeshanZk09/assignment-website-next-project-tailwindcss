@@ -101,9 +101,9 @@ export default function Header() {
         <div className="-my-6 divide-y divide-gray-500/10">
           <div className="space-y-2 py-6">
             <Link href="/courses" className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-gray-200 active:bg-gray-50 active:text-gray-800">Courses</Link>
-            <Link href="/features" className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-gray-200 active:bg-gray-50 active:text-gray-800">Features</Link>
-            <Link href="/marketplace" className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-gray-200 active:bg-gray-50 active:text-gray-800">Marketplace</Link>
-            <Link href="/company" className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-gray-200 active:bg-gray-50 active:text-gray-800">Company</Link>
+            <Link href="/docs" className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-gray-200 active:bg-gray-50 active:text-gray-800">Docs</Link>
+            <Link href="/about" className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-gray-200 active:bg-gray-50 active:text-gray-800">About</Link>
+            <Link href="/templates" className="-mx-3 block rounded-lg px-3 py-2 text-base font-light leading-7 text-gray-200 active:bg-gray-50 active:text-gray-800">Templates</Link>
           </div>
           <div className="py-6">
             <Link href="/login" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-medium leading-7 text-gray-200 hover:bg-gray-800">Log in</Link>
