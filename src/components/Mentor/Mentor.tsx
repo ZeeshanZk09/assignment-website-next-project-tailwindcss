@@ -68,7 +68,7 @@ const Mentor = () => {
         <div id="mentors-section" className="mx-auto max-w-2xl pb-16 px-4 sm:py-20 sm:px-6 lg:max-w-7xl lg:px-8">
 
             <div className='sm:flex justify-between items-center mb-12'>
-                <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-white my-4">Meet with our Mentors</h2>
+                <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-[#2eff779d] my-4">Meet with our Mentors</h2>
                 <div>
                     <button className="bg-transparent hover:bg-purple text-[#95dccf] font-medium hover:text-white py-3 px-4 border border-lightgrey hover:border-transparent rounded">
                         Explore 10+ our Mentor
@@ -99,7 +99,7 @@ const Mentor = () => {
                                         </a>
                                     </h3>
                                 </div>
-                                <p className="mt-3 text-2xl font-semibold text-offblack text-center">{product.color}</p>
+                                <p className="mt-3 text-2xl font-semibold text-black text-center">{product.color}</p>
                             </div>
                         </div>
                     </div>
