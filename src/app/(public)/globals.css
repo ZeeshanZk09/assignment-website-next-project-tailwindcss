@@ -2,39 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   color-scheme: light dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+  -moz-osx-font-smoothing: grayscale;
+  --primary-color: #58786c; /* Harmonized main color */
+  --accent-color: #628c84;
+  --background-dark: #0f1415;
+  --background-light: #4f6469;
+  --background-gradient: linear-gradient(to bottom left, var(--background-dark), var(--background-light));
+  --text-color-light: #ffffff;
+  --selection-bg: var(--primary-color); /* Harmonized selection color */
 }
+
 * {
   outline: none;
 }
+
 html {
-  --scroll-behavior: smooth!important;
-  scroll-behavior: smooth!important;
-  }
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+  transition: 0.4s linear;
+}
+
 body {
- 
-
-  /* color: white; */
-  background: linear-gradient(to bottom left, #0f1415, #4f6469);
+  background: var(--background-gradient);
   background-repeat: no-repeat;
-  background-clip: border-box;
-  /* overflow:hidden; */
-
-
   font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color-light); /* Set text color to white */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 
   ::selection {
-    background-color: #58786c; /* Tomato color */
-    color: black ; /* White text color */
+    background-color: var(--selection-bg); /* Updated selection background */
+    color: black; /* White text color when selected */
   }
 }
 
+.nav-links{
+  positon:sticky;
+  top:0;
+  left:1/2;
+  transform: translateX(-1/2);
+  background: #ffffff36;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 
+  /* fixed top-0 left-1/2 transform -translate-x-1/2 bg-[#ffffff36] backdrop-blur-lg */
+}
 
 @layer utilities {
   .text-balance {
@@ -42,60 +58,19 @@ body {
   }
 }
 
-
-
-
-
-
-  /* 
-
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-*/
-
-/* html:not([data-scroll="0"]) .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white !important;
-  opacity: 1.9;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
-  transition: 0.4s linear;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  z-index: 3;
-}  */
-
-
-
 @media screen and (max-width: 640px) {
-  body{
-  background: linear-gradient(to bottom left, #000000d3 , #628c84);
+  body {
+    background: linear-gradient(to bottom left, #000000d3, var(--accent-color));
   }
+
   .banner-image {
-    background-image: none !important ;
+    background-image: none !important;
     background-color: #FCF5EF;
   }
 }
-.img-section{
-  
-}
-
-
-/* .bg-newsletter {
-  background-image: url('/assets/newsletter/hands.svg');
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
 
 .boxshadow {
-  box-shadow: 0px 64px 64px -48px #F5EEE8;
+  box-shadow: 0px 64px 64px -48px rgba(245, 238, 232, 0.9);
 }
 
 .position-green {
@@ -121,21 +96,20 @@ body {
 
 .mentorShadow {
   box-shadow: 0px 4px 20px rgba(110, 127, 185, 0.1);
-  }
-  .footer-icons{
-    transition: .5s;
 }
 
-.footer-icons:hover{
+.footer-icons {
+  transition: 0.5s;
+}
+
+.footer-icons:hover {
   transform: translateY(-8px);
 }
 
 .space-links {
-  transition: .3s;
+  transition: 0.3s;
 }
+
 .space-links:hover {
   letter-spacing: 1px;
-  } 
-  /* 
-  
-  */
+}
