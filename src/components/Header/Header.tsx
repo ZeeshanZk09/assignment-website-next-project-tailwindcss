@@ -78,7 +78,7 @@ export default function Header() {
   </nav>
 
   {isMobileMenuOpen && (
-    <div className="lg:hidden absolute top-0 left-0 right-0 z-50 w-full p-3 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 bg-gradient-to-b from-[#596360db] to-[#000000db] rounded  backdrop-blur-3xl" role="dialog" aria-modal="true" aria-label="Mobile Menu" ref={menuRef} style={{ insetBlockStart: '0', top: '0' }}>
+    <div className="lg:hidden absolute top-0 left-0 right-0 z-50 w-full p-3 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 bg-gradient-to-b from-[#596360db] to-[#021b0cdb] rounded  backdrop-blur-3xl" role="dialog" aria-modal="true" aria-label="Mobile Menu" ref={menuRef} style={{ insetBlockStart: '0', top: '0' }}>
       <div className="flex items-center justify-between ">
         <Link href="/" className="-m-1.5 p-1.5  ">
           <span className="sr-only">Your Company</span>
