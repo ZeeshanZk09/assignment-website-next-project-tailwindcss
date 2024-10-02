@@ -48,9 +48,9 @@ body {
 }
 
 @media screen and (max-width: 640px) {
-  /* body {
+  body {
     background: linear-gradient(to bottom left, #000000d3, var(--accent-color));
-  } */
+  }
 
   .banner-image {
     background-image: none !important;
